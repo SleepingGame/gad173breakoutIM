@@ -14,4 +14,8 @@ public:
 	static Example &inst();
 
 	sf::Sprite *m_backgroundSprite;
+	sf::Sprite *m_catmyaw;
+	sf::Sprite catsprite;
+	sf::RectangleShape line[21];
+	sf::RectangleShape line2[6];
 };
